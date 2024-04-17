@@ -1,0 +1,246 @@
+html {
+    font-family: outfit;
+}
+
+@keyframes Entrada {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes elementos {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.content {
+    background-color: black;
+    width: 100 dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 8dvi;
+}
+
+.logo {
+    width: 50dvw;
+    animation: Entrada 1.5s ease 0s 1 normal forwards;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50dvw;
+    height: 50dvh;
+    animation: Entrada 1.5s ease 0s 1 normal forwards;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0dvi 0 0dvi 0;
+    animation: Entrada 1.5s ease 0s 1 normal forwards;
+}
+
+.content-contacto {
+    background-color: black;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-size: 8dvi;
+}
+
+.logo-contacto {
+    width: 50dvw;
+    border-radius: 20px;
+    animation: Entrada 1.5s ease 0s 1 normal forwards;
+}
+
+.atras {
+    background-color: black;
+    border: solid 1px;
+    color: #fff;
+    border-radius: 25px;
+    height: 8dvi;
+    width: 8dvi;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: outfit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: Entrada 1.5s ease 0s 1 normal forwards;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100dvw;
+    height: 10dvh;
+    background-color: black;
+    position: sticky;
+    padding: 2dvi 0 2dvi 0;
+    animation: Entrada 1.5s ease 0s 1 normal forwards;
+}
+
+.logo-navbar {
+    width: 20dvw;
+    animation: Entrada 1.5s ease 0s 1 normal forwards;
+}
+
+.digital {
+    max-width: 100dvw;
+    text-overflow: clip;
+}
+
+.digital-services {
+    display: flex;
+    flex-direction: column;
+    margin: 7dvi 0 7dvi 10dvi;
+}
+
+.tittle {
+    font-family: outfit;
+    font-size: 10dvi;
+    font-weight: 600;
+    margin-top: 5dvi;
+    margin-bottom: 2dvi;
+    animation: elementos 2s ease 0s 1 normal forwards;
+}
+
+.list {
+    margin-left: 5dvi;
+    animation: elementos 3s ease 0s 1 normal forwards;
+}
+
+.list-item {
+    font-size: 6dvi;
+    list-style-type: disc;
+    color: #26ABA8;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.27));
+}
+
+.section-impresos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 4dvi;
+    animation: elementos 2s ease 0s 1 normal forwards;
+}
+
+.container-impresos {
+    background-color: #26ABA8;
+    width: 40dvw;
+    height: auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8dvi 0 8dvi 0 
+}
+
+.section{
+    margin: 10dvi 0 10dvi 0 ;
+    max-width: 100dvw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.section-alt{
+    margin: 2dvi 0 2dvi 0 ;
+    max-width: 100dvw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    animation: elementos 2s ease 0s 1 normal forwards;
+}
+
+.section-title{
+    font-size: 11dvi;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5%;
+    animation: elementos 1s ease 0s 1 normal forwards;
+}
+
+.image-impresos {
+    width: 30dvi;
+}
+
+.title-impresos {
+    font-size: 12dvi;
+    font-weight: 700;
+    color: #fff;
+}
+
+.text-impresos {
+    color: #fff;
+}
+
+.list-impresos {
+    color: #fff;
+}
+
+.container-lonas {
+    background-color: #26ABA8;
+    width: 90dvw;
+    height: auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8dvi 0 8dvi 0 
+}
+
+.section-lonas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5dvi;
+}
+
+.table-lonas{
+    color: #fff;
+    font-weight: 500;
+    table-layout: fixed;
+}
+
+.title-lonas{
+    font-weight: 600;
+    font-size: 9dvi;
+    color: #fff;
+    margin-left: 2dvi;
+;
+}
+
+.list-lonas{
+    padding: 1dvi ;
+    font-size: 4dvi;
+}
